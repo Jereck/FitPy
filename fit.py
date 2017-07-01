@@ -1,6 +1,6 @@
 #CREATE THE PERSON CLASS
 class Person:
-	def __init__(self, name, age, sex, weight, height, activity_level, goal, **kwargs):
+   def __init__(self, name, age, sex, weight, height, activity_level, goal, **kwargs):
       self.name = ""
       self.age = 0
       self.sex = ""

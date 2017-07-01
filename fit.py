@@ -1,10 +1,15 @@
 #CREATE THE PERSON CLASS
 class Person:
-	age = 0
-   weight = 0
-   height = 0
-   activity_level = 0
-   goal = ""
+	def __init__(self, age, weight, height, activity_level, goal, **kwargs):
+      self.age = 0
+      self.weight = 0
+      self.height = 0
+      self.activity_level = 0
+      self.goal = ""
+
+      for key, value in kwargs.items():
+         setattr(self, key, value)
+
    def total_daily_expend(self):
       #INSERT FORMULA FOR TDEE HERE
 

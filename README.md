@@ -4,6 +4,6 @@ This project has been created to practice and track the development of my python
 
 FitPy is a fitness based Python application that will take in your information and output some information. It will start out very simple as I am learning, and hopefully will develope into a more complex program as time goes on. 
 
-=== Stage One ===
+=== Stage One === 
 User will input their Name, Age, Height, Weight, Activity Level, and Goal (gain, lose, or maintain weight)
 The program will output their Total Daily Energy Expenditure, Caloric Goal per day, and a sample meal plan.

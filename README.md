@@ -1,11 +1,9 @@
 # FitPy
 
-#This is a program I am writing and creating as I learn more and more about Python.
-#The hopes is to watch this program evolve from something simple to a more complex and robust program
+This project has been created to practice and track the development of my python programming skills. The entire month of July has been dedicated to teaching myself Python through books and online resources like Treehouse and Udemy. 
 
-############### STAGE ONE ##################################
-#The program is at it's simplest form. It should take in a users name, age, heigh, weight, activity level, and goals
-#Based on the information that the user inputs, it should output their TDEE (Total Daily Energy Expenditure) and a sample meal plan
+FitPy is a fitness based Python application that will take in your information and output some information. It will start out very simple as I am learning, and hopefully will develope into a more complex program as time goes on. 
 
-
-############### STAGE TWO ##################################
+=== Stage One ===
+User will input their Name, Age, Height, Weight, Activity Level, and Goal (gain, lose, or maintain weight)
+The program will output their Total Daily Energy Expenditure, Caloric Goal per day, and a sample meal plan.

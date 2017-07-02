@@ -1,4 +1,5 @@
 import person
+pers = person.Person()
 
 def BasamMetabolicRate(self):
    #INSERT FORMULA FOR BMR HERE -- OUTPUT BASED ON MALE OR FEMALE

@@ -1,4 +1,6 @@
-def basal_metabolic_rate(self):
+import person
+
+def BasamMetabolicRate(self):
    #INSERT FORMULA FOR BMR HERE -- OUTPUT BASED ON MALE OR FEMALE
    #FEMALE
    if sex == 'f'
@@ -7,15 +9,15 @@ def basal_metabolic_rate(self):
    if sex == 'm'
       return 66 + (13.7 * self.weight) + (5 * self.height) - (6.8 * self.age)
 
-def total_daily_expend(self):
+def TotalDailyExpend(self):
    #INSERT FORMULA FOR TDEE
-   return basal_metabolic_rate() * activity_level
+   return BasalMetabolicRate() * activity_level
 
 #CONVERT INPUT POUNDS TO KILOGRAMS FOR EQUATION
-def pounds_to_kilograms(self):
+def PoundsToKilograms(self):
    return pounds * 0.45359227
 
 #CONVERT INPUT FEET TO INCHES FOR EQUATION
-def feet_to_inches(self):
-   return feet / 12
+def FeetToInches(self):
+   return ((feet / 12) + incehs)
 

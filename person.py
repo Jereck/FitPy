@@ -11,3 +11,6 @@ class Person:
 
       for key, value in kwargs.items():
          setattr(self, key, value)
+
+person1 = Person("Jake", 28, 'm', 180, 74, 2, 'gain')
+print (person1)
